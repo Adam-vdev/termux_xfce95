@@ -7,9 +7,8 @@ export default function App() {
   const [appUrl, setAppUrl] = useState('');
 
   useEffect(() => {
-    // Determine the base URL for the setup script
-    // In production APP_URL is injected, otherwise use window location
-    const url = process.env.APP_URL || window.location.origin;
+    // Standard approach for determining the current host
+    const url = window.location.origin;
     setAppUrl(url);
   }, []);
 
