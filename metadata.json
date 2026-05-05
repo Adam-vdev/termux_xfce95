@@ -1,0 +1,6 @@
+{
+  "name": "Termux Retro Setup",
+  "description": "Automated script generator for Termux Linux with XFCE and Chicago95 theme.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["Bash Script Generation", "Linux Setup Automation"]
+}
